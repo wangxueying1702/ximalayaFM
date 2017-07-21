@@ -1,0 +1,181 @@
+body {
+  background: #f2f4f3;
+  position: relative; }
+
+.Liheader {
+  border-bottom: 1px solid #e8e8e8;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10000; }
+  .Liheader img {
+    width: 0.45rem;
+    height: 0.40rem;
+    margin-top: 0.4rem; }
+  .Liheader h1 {
+    font: 0.38rem/1.12rem "";
+    color: #000;
+    letter-spacing: 0.2rem; }
+
+.Libanner {
+  background: #fff;
+  margin-top: 1.12rem; }
+  .Libanner ul {
+    display: flex;
+    justify-content: space-between; }
+    .Libanner ul li {
+      text-align: center;
+      margin: 0.52rem 0.62rem 0.28rem 0.62rem; }
+      .Libanner ul li img {
+        display: block;
+        width: 0.64rem;
+        height: 0.51rem;
+        margin: auto; }
+      .Libanner ul li span {
+        font: 0.25rem/0.6rem "";
+        color: #7d7d7d; }
+      .Libanner ul li b {
+        font: 0.21rem/0.34rem "";
+        color: #a2a2a2; }
+
+.Linav {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.2rem;
+  padding-left: 0.3rem;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  z-index: 100000; }
+  .Linav p {
+    font: 0.27rem/0.94rem "";
+    color: #797979;
+    width: 1.22rem;
+    text-align: center; }
+  .Linav p:nth-of-type(1) {
+    margin-right: 0.3rem;
+    color: #f36758;
+    border-bottom: 0.05rem solid #f36758; }
+  .Linav p:nth-of-type(2) {
+    margin-right: 4.2rem; }
+
+.Limain1 {
+  background: #fff;
+  text-align: center;
+  padding-bottom: 3rem; }
+  .Limain1 img {
+    width: 2.69rem;
+    height: 2.06rem;
+    display: block;
+    padding: 1rem 0 0.56rem 0;
+    margin: auto; }
+  .Limain1 span {
+    font: 0.26rem/0.56rem "";
+    color: #b7b7b7; }
+  .Limain1 h3 {
+    font: 0.24rem/0.68rem "";
+    color: #818181;
+    border: 1px solid #e8e8e8;
+    width: 2.62rem;
+    margin: 0.36rem auto; }
+    .Limain1 h3 b {
+      font: 700 0.4rem/0.68rem "";
+      margin-right: 0.2rem;
+      margin-top: 0.1rem; }
+  .Limain1 b {
+    font: 0.26rem/0.4rem "";
+    color: #d6d6d6;
+    margin-right: 0.2rem; }
+  .Limain1 s {
+    font: 0.26rem/0.4rem "";
+    color: #f36758; }
+
+.Limain2:last-of-type p {
+  border: 0; }
+
+.Limain2 {
+  background: #fff;
+  padding: 0.3rem 0 0 0.3rem;
+  display: flex;
+  justify-content: space-between; }
+  .Limain2 img {
+    width: 1.4rem;
+    height: 1.3rem; }
+  .Limain2 p {
+    margin-left: 0.3rem;
+    padding-right: 0.8rem;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 0.3rem;
+    width: 80%; }
+    .Limain2 p span {
+      font: 0.32rem/0.44rem "";
+      color: #454545; }
+    .Limain2 p b {
+      font: 0.27rem/0.7rem "";
+      color: #949494; }
+    .Limain2 p s {
+      font: 0.20rem/0.3rem "";
+      color: #949494; }
+      .Limain2 p s img:nth-of-type(1) {
+        width: 0.16rem;
+        height: 0.18rem; }
+      .Limain2 p s img:nth-of-type(2) {
+        width: 0.32rem;
+        height: 0.20rem; }
+
+.Rmfooter {
+  width: 100%;
+  background: #fff;
+  padding-top: 0.2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10; }
+  .Rmfooter ul {
+    display: flex;
+    justify-content: space-between; }
+    .Rmfooter ul li {
+      margin: 0 0.4rem;
+      text-align: center;
+      font: 0.27rem/0.5rem "";
+      color: #656565; }
+      .Rmfooter ul li img {
+        display: block;
+        margin: auto; }
+    .Rmfooter ul li:nth-of-type(2) {
+      color: #f97252; }
+    .Rmfooter ul li:nth-of-type(1) img {
+      width: 0.64rem;
+      height: 0.43rem; }
+    .Rmfooter ul li:nth-of-type(2) img {
+      width: 0.65rem;
+      height: 0.43rem; }
+    .Rmfooter ul li:nth-of-type(3) {
+      margin: 0 0.3rem; }
+      .Rmfooter ul li:nth-of-type(3) img {
+        width: 0.93rem;
+        height: 0.93rem;
+        margin-top: -0.4rem; }
+    .Rmfooter ul li:nth-of-type(4) img {
+      width: 0.47rem;
+      height: 0.43rem; }
+    .Rmfooter ul li:nth-of-type(5) img {
+      width: 0.45rem;
+      height: 0.43rem; }
+
+.top {
+  position: fixed;
+  right: 0.3rem;
+  bottom: 2rem;
+  z-index: 9999;
+  display: none; }
+  .top img {
+    width: 0.8rem;
+    height: 0.8rem; }
+
+/*# sourceMappingURL=listen.css.map */

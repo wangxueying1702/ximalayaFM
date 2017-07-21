@@ -1,0 +1,114 @@
+body {
+  background: #f2f4f3;
+  position: relative;
+  overflow: hidden; }
+
+.tese {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  background: #f2f4f3;
+  display: none; }
+  .tese .ditu {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 1.33rem;
+    height: 1.47rem; }
+
+.dingshi {
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  z-index: 10000; }
+  .dingshi p {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem; }
+    .dingshi p span {
+      font: 0.3rem/0.5rem "";
+      color: #000; }
+    .dingshi p b {
+      display: inline-block;
+      width: 0.2rem;
+      height: 0.2rem;
+      border-radius: 0.05rem;
+      margin-top: 0.25rem;
+      border: 1px solid red;
+      color: #fff;
+      font: 0.2rem/0.2rem ""; }
+  .dingshi h1 {
+    font: 0.3rem/0.8rem "";
+    color: #000;
+    text-align: center;
+    border-top: 1px solid #e6e6e6; }
+
+.sHeader {
+  background: #fff;
+  text-align: center; }
+  .sHeader img {
+    position: absolute;
+    left: 0.37rem;
+    top: 0.31rem;
+    width: 0.17rem;
+    height: 0.30rem; }
+  .sHeader h3 {
+    font: 700 0.33rem/0.97rem "";
+    color: #000; }
+
+.smain {
+  background: #fff;
+  margin-top: 0.24rem; }
+  .smain .smain-li:last-of-type {
+    border: 0; }
+  .smain .smain-li {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.3rem;
+    padding-right: 0.3rem;
+    border-bottom: 1px solid #f1f1f1;
+    position: relative; }
+    .smain .smain-li span {
+      font: 0.3rem/0.97rem "";
+      color: #000; }
+    .smain .smain-li .kaiguan {
+      width: 0.54rem;
+      height: 0.54rem;
+      border-radius: 50%;
+      background: #fff;
+      box-shadow: 0 0 0.1rem #000;
+      top: 0.25rem;
+      right: 0.7rem;
+      position: absolute; }
+    .smain .smain-li .dise {
+      width: 0.80rem;
+      height: 0.54rem;
+      border-radius: 0.25rem;
+      background: #7e7e7e;
+      top: 0.25rem;
+      right: 0.3rem;
+      position: absolute; }
+    .smain .smain-li img:last-of-type {
+      width: 0.14rem;
+      height: 0.24rem;
+      margin: 0; }
+    .smain .smain-li img {
+      width: 0.46rem;
+      height: 0.42rem; }
+    .smain .smain-li b {
+      font: 0.2rem/0.97rem "";
+      color: #979797;
+      margin-right: 0.1rem; }
+
+.sfooter h4 {
+  background: #f76241;
+  width: 90%;
+  margin: 0.4rem auto;
+  border-radius: 0.2rem;
+  text-align: center;
+  font: 0.34rem/0.90rem "";
+  color: #fff; }
+
+/*# sourceMappingURL=set.css.map */
